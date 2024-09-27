@@ -3,6 +3,10 @@ package com.iit.oop;
 public class BankAccount {
     private double balance;
     private int accountNumber;
+
+    public BankAccount() {
+        super();
+    }
     public BankAccount(double balance, int accountNumber) {
         this.balance = balance;
         this.accountNumber = accountNumber;
