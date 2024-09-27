@@ -32,4 +32,12 @@ public class BankAccount {
     public void close(){
         balance = 0;
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "balance=" + balance +
+                ", accountNumber=" + accountNumber +
+                '}';
+    }
 }
