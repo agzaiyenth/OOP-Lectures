@@ -90,12 +90,18 @@ public class BankingApp {
         return arr;
     */
 
-        Student s1=new Student("Agzy",19,92);
+        /*Student s1=new Student("Agzy",19,92);
         Student s2=new Student("Sarah",20,42);
         s1.displayDetails();
         s2.displayDetails();
         System.out.println("Student 1 has "+s1.hasPassed()+" the module");
-        System.out.println("Student 2 has "+s2.hasPassed()+" the module");
+        System.out.println("Student 2 has "+s2.hasPassed()+" the module");*/
+
+        Ticket t1=new Ticket();
+        Ticket t2=new Ticket();
+        Ticket t3=new Ticket();
+        System.out.println(t3.getInfo());
+        System.out.println(t3.getNumTicketSold());
     }
 
 
