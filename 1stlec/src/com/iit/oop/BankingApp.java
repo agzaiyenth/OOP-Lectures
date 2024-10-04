@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class BankingApp {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
         int[] arr = new int[6];
         for (int i = 0; i < 6; i++) {
             System.out.print("Enter an integer: ");
@@ -24,7 +24,7 @@ public class BankingApp {
         for (int i = 0; i < 6; i++) {
             if (arr[i]<40){
                 below+=1;
-            } else if (arr[i]>40 && arr[i]<50) {
+            } else if (arr[i]>40 && arr[i]<50) {d
                 pass+=1;
             }else if (arr[i]>49 && arr[i]<60) {
                 two+=1;
@@ -88,6 +88,15 @@ public class BankingApp {
             }
         }
         return arr;
+    */
+
+        Student s1=new Student("Agzy",19,92);
+        Student s2=new Student("Sarah",20,42);
+        s1.displayDetails();
+        s2.displayDetails();
+        System.out.println("Student 1 has "+s1.hasPassed()+" the module");
+        System.out.println("Student 2 has "+s2.hasPassed()+" the module");
     }
+
 
 }
