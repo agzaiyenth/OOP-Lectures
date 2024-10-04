@@ -101,7 +101,7 @@ public class BankingApp {
         Ticket t2=new Ticket();
         Ticket t3=new Ticket();
         System.out.println(t3.getInfo());
-        System.out.println(t3.getNumTicketSold());
+        System.out.println(Ticket.getNumTicketSold());
     }
 
 

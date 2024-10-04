@@ -8,7 +8,7 @@ public class Ticket {
         this.numTicketSold++;
         this.numTicket = numTicketSold;
     }
-    public int getNumTicketSold() {
+    public static int getNumTicketSold() {
         return numTicketSold;
 
     }
