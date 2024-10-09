@@ -104,6 +104,29 @@ public class BankingApp {
         System.out.println(Ticket.getNumTicketSold());*/
 
 
+        Director director = new Director("James", "Cameron");
+        Date dob = new Date(16, 8, 1954);
+        director.setDob(dob);
+        director.setNumDirectedMovie(23);
+        System.out.println(director); // toString()
+        System.out.println("name is: " + director.getName());
+        System.out.println("surname is: " + director.getSurname());
+        System.out.println("dob is: " + director.getDob().getDate());
+        System.out.println("number of directed movies is: " +
+                director.getNumDirectedMovie());
+
+        IdentifyVariables a = new IdentifyVariables ();
+        IdentifyVariables b = new IdentifyVariables ();
+        a.y = 5;
+        b.y = 6;
+        a.x = 1;
+        b.x = 2;
+        System.out.println("a.y = " + a.y);
+        System.out.println("b.y = " + b.y);
+        System.out.println("a.x = " + a.x);
+        System.out.println("b.x = " + b.x);
+        System.out.println("IdentifyVariables.x = " + IdentifyVariables.x);
+
 
     }
 

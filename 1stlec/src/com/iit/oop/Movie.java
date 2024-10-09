@@ -1,6 +1,7 @@
 package com.iit.oop;
 
 public class Movie {
+    Actor [] listActor=new Actor[10];
     private String title;
     private String category;
     private Director director;
@@ -32,6 +33,7 @@ public class Movie {
         return numAward;
     }
 
+    pub
     @Override
     public String toString() {
         return "Movie "+title+"\nCategory "+category+"\nNo of Awards "+numAward;
