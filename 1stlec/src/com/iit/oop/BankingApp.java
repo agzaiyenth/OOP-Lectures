@@ -97,11 +97,14 @@ public class BankingApp {
         System.out.println("Student 1 has "+s1.hasPassed()+" the module");
         System.out.println("Student 2 has "+s2.hasPassed()+" the module");*/
 
-        Ticket t1=new Ticket();
+        /*Ticket t1=new Ticket();
         Ticket t2=new Ticket();
         Ticket t3=new Ticket();
         System.out.println(t3.getInfo());
-        System.out.println(Ticket.getNumTicketSold());
+        System.out.println(Ticket.getNumTicketSold());*/
+
+
+
     }
 
 
