@@ -6,6 +6,7 @@ public class Movie {
     private Director director;
     private int numAward;
 
+    public Movie(){}
     public Movie(String title,String category,Director director) {
         this.title = title;
         this.category = category;
@@ -35,5 +36,5 @@ public class Movie {
     public String toString() {
         return "Movie "+title+"\nCategory "+category+"\nNo of Awards "+numAward;
     }
-    
+
 }
