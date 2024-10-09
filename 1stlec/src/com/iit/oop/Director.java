@@ -1,6 +1,5 @@
 package com.iit.oop;
 
-import java.util.Date;
 
 public class Director extends Movie{
 
