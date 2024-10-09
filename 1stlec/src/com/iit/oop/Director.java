@@ -40,6 +40,11 @@ public class Director extends Movie{
 
     @Override
     public String toString() {
-        return "Name "+name;
+        return "Director [" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", numDirectedMovie=" + numDirectedMovie +
+                ", Dob=" + Dob +
+                ']';
     }
 }
