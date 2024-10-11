@@ -1,10 +1,11 @@
 package com.iit.oop;
 
-public class Student {
+public class Student extends Person {
     private String name;
     private int age;
     private double grade;
     public Student(String name, int age, double grade) {
+        super();
         this.name = name;
         this.age = age;
         this.grade = grade;

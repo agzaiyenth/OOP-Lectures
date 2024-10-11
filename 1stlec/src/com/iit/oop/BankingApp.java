@@ -104,7 +104,7 @@ public class BankingApp {
         System.out.println(Ticket.getNumTicketSold());*/
 
 
-        Director director = new Director("James", "Cameron");
+       /* Director director = new Director("James", "Cameron");
         Date dob = new Date(16, 8, 1954);
         director.setDob(dob);
         director.setNumDirectedMovie(23);
@@ -125,7 +125,7 @@ public class BankingApp {
         System.out.println("b.y = " + b.y);
         System.out.println("a.x = " + a.x);
         System.out.println("b.x = " + b.x);
-        System.out.println("IdentifyVariables.x = " + IdentifyVariables.x);
+        System.out.println("IdentifyVariables.x = " + IdentifyVariables.x);*/
 
 
     }
