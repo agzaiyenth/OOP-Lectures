@@ -1,7 +1,7 @@
 package com.iit.oop;
 
 public class Student extends Person {
-    private String name;
+
     private int age;
     private double grade;
     public Student(String name, int age, double grade) {
@@ -9,7 +9,7 @@ public class Student extends Person {
         this.grade = grade;
     }
     public void displayDetails(){
-        System.out.println("Name: " + name);
+        System.out.println("Name: " + super.getName());
         System.out.println("Age: " + age);
         System.out.println("Grade: " + grade);
     }
