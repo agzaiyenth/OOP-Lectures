@@ -126,6 +126,8 @@ public class BankingApp {
         System.out.println("a.x = " + a.x);
         System.out.println("b.x = " + b.x);
         System.out.println("IdentifyVariables.x = " + IdentifyVariables.x);*/
+        Star star = new Star();
+        star.draw();
 
 
     }

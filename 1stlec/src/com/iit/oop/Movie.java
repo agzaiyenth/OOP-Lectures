@@ -33,7 +33,7 @@ public class Movie {
         return numAward;
     }
 
-    pub
+
     @Override
     public String toString() {
         return "Movie "+title+"\nCategory "+category+"\nNo of Awards "+numAward;
